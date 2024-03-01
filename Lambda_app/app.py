@@ -37,7 +37,7 @@ class ParseToJson:
         try:
             self.response = requests.get(url, headers=self.header)
             if self.response.status_code == 404:
-                print('can not parse response')
+                logger.info('can not parse response')
             else:
                 body = self.response.content.decode('utf-8')
                 self.body = body.split('\n')
