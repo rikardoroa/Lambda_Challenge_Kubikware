@@ -1,17 +1,22 @@
 ## Kubikware Challenge
 
-###### Lambda Script que tiene como evento una URL, en donde a traves de la cual se genera un Diccionario con clave de Estado y valores del condado asociado al estado
+###### Lambda Script that is triggered by a URL, through which it generates a Dictionary with State as the key and associated counties as the values
 
-## Instalacion Pycharm , AWS SAM y AWS CLI(Opcional) para ejecutarlo en local
+## Installation of Pycharm, AWS SAM, and AWS CLI (Optional) for local execution
 
-* 1. **__Instalar Pycharm, AWS SAM y AWS CLI__** para ejecutar el script y probarlo en local, comparto la carpeta **__Lambda_app_aws_sam__** con el ambiente de pycharm pre configurado, solo se debe cambiar la region donde se tenga la cuenta, ya que las credenciales se asocian automaticamente a traves de pycharm, la version de AWS SAM que utiliza pycharm es con licencia, pero se puede probar un free trial de 30 dias y ejecutar la solucion, tambien se debe tener instalado docker desktop.
+* 1. **__Install Pycharm, AWS SAM, and AWS CLI-_** to run the script and test it locally. I'm sharing the folder **__Lambda_app_aws_sam__** with the Pycharm environment pre-configured. You only need to change the region where your account is located, as the credentials are automatically associated through Pycharm. The version of AWS SAM used by Pycharm is licensed, but a 30-day free trial is available to test and execute the solution. Docker Desktop also needs to be installed.
 
-## Instalacion Pycharm o cualquier otro IDE para ejecutar la solucion
 
-* 2. **__Instalar Pycharm, Visual Studio otro IDE y docker__** Si se va ejecutar el script en pycharm u otro IDE se recomienda utilizar docker para dockerizar la imagen de la lambda para desplegarla directamente en la cuenta de AWS, para esto igual es necesario tener las credenciales, las cuales tambien se pueden configurar a traves de AWS CLI, la solucion generica sin implementar AWS SAM y AWS CLI
+## Installation of Pycharm or any other IDE to execute the solution
 
-* 3. Tener las siguientes librerias instaladas: **_pandas, y requests_**
+* 2. **__Install Pycharm, Visual Studio or another IDE, and Docker.__** If you are going to run the script in Pycharm or another IDE, it's recommended to use Docker to dockerize the image of the lambda for direct deployment to the AWS account. For this, it's also necessary to have the credentials, which can also be configured through AWS CLI. This is a generic solution without implementing AWS SAM and AWS CLI.
 
-* 4. Las librerias por defecto de Python que son utilizadas en este proyecto son: **_json, time y logging_** 
 
-* 5. no utilize credenciales ya que todo el desarrollo fue aclopado a una Lambda en AWS por lo tanto no fue necesario, ademas que para testearlo en local use AWS SAM y AWS CLI
+The default Python libraries used in this project are: json, time, and logging
+I did not use credentials since all the development was adapted to a Lambda in AWS, so it was not necessary. Also, to test it locally I used AWS SAM and AWS CLI.
+
+* 3. Have the following libraries installed: **_pandas, and requests_** 
+
+* 4. The default Python libraries used in this project are: **_json, time y logging_** 
+
+* 5. I did not use credentials since all the development was adapted to a Lambda in AWS, so it was not necessary. Also, to test it locally I used AWS SAM and AWS CLI.
