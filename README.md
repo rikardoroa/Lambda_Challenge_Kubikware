@@ -4,7 +4,7 @@
 
 ## Installation of Pycharm, AWS SAM, and AWS CLI (Optional) for local execution
 
-* 1. **__Install Pycharm, AWS SAM, and AWS CLI-_** to run the script and test it locally. I'm sharing the folder **__Lambda_app_aws_sam__** with the Pycharm environment pre-configured. You only need to change the region where your account is located, as the credentials are automatically associated through Pycharm. The version of AWS SAM used by Pycharm is licensed, but a 30-day free trial is available to test and execute the solution. Docker Desktop also needs to be installed.
+* 1. **__Install Pycharm, AWS SAM, and AWS CLI__** to run the script and test it locally. I'm sharing the folder **__Lambda_app_aws_sam__** with the Pycharm environment pre-configured. You only need to change the region where your account is located, as the credentials are automatically associated through Pycharm. The version of AWS SAM used by Pycharm is licensed, but a 30-day free trial is available to test and execute the solution. Docker Desktop also needs to be installed.
 
 
 ## Installation of Pycharm or any other IDE to execute the solution
